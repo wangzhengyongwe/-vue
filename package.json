@@ -1,0 +1,11 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "vue2整套的代码，包括web门户、admin后台管理、以及server后端服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
