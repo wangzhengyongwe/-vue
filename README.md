@@ -1,7 +1,7 @@
 ## 一、采用技术方案
 
 该系统采用的主要技术如下：
-> Vue3
+> Vue2
 1. [Vue.js](https://cn.vuejs.org/)
 2. [Element Plus](https://element-plus.gitee.io/zh-CN/)
 3. [axios](http://www.axios-js.com/zh-cn/docs/index.html)
@@ -9,19 +9,7 @@
 5. [Sequelize](https://www.sequelize.com.cn/)
 6. [Koa](https://koa.bootcss.com/)
 7. MySQL数据库
-
-
-> 2022.11.19 更新
->
-> Vue3 [新分支,已经是默认分支](https://github.com/AeroWang/XanaduCompany)； 由 `zerotower69` 开发
-
-- 更新为 Vue3 + TS + Element Plus
-
-> 2023.03.15 更新
->
-vue3为主分支，vue2版本请参考[vue2](https://github.com/AeroWang/XanaduCompany/tree/vue2)分支,本分支当前的坑比较多，部分不完善的地方请参考vue2版本的效果。
 ## 二、开发环境
-
 1. 操作系统：Windows10
 2. 数据库：MySQL（v5.7.7）
 3. Web服务器：Nginx 
@@ -38,13 +26,6 @@ web---前台门户展示
 server---后端服务
 
 ## 四、进入项目
-
-系统已上线进行展示
-
-1. 企业门户展示（https://xanadu.aerowang.cn/）
-
-2. 系统后台管理（https://xanadu.aerowang.cn/admin）
-
    - 账户：youke，密码：a123456
    - 管理员：admin 密码：654321
 
@@ -140,7 +121,7 @@ docker并未使用go版本
 
 4.项目运行前，请一定要npm install安装相关的依赖，并进入到pcweb端、管理端、后端看看各自的package.json文件看看**scripts**部分，确认你要运行的命令是已经定义了的。都没有定义 dev命令，你偏偏要执行`npm run dev`，肯定是要报错的，而且第一句报错信息的意思就会是 dev不在 scripts中，反正你看到 package.json和scripts两个关键字出现在你报错的第一行肯定就是执行了未定义的命令
 
-5.**数据库脚本** （[initial_data.sql](/server/init/initial_data.sql)）请参考QQ群：434063310（这个群主并非原作者，而是自愿来维护的）。
+5.**数据库脚本** （
 
 6.node推荐使用nvm版本管理工具，[windows用户](https://github.com/coreybutler/nvm-windows/releases)直接使用.exe无烦恼安装, mac用户可以使用brew安装
 ```bash
@@ -190,10 +171,7 @@ location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|webp|jfif)$
 ## 七、最后的最后
 
 *记得给star哦ღ( ´･ᴗ･` )~*
-新群：434063310。（不保证回复时效性）
-## 八、zerotower69最后一次更新说明
-1.项目的初衷是为了让大家有个vue3版本的语法对比，因此很多功能都和vue2分支的保持一致。
-由于开发难免有bug,如有需要自行参考vue2分支或者部署版本修改。
+
 2.我并对不任何人的使用体验负责，有bug欢迎你向我提问，但我不是授课老师。你需要的授课老师可能是：
 * [菜鸟教程](https://www.runoob.com)
 * [bing](https://www.bing.com)
